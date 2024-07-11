@@ -11,3 +11,15 @@ function validarEdad(edad) {
         return false;
     }
 }
+let edadValida = false;
+while (!edadValida) {
+    let edad = prompt("Ingresa tu edad por favor:");
+    edadValida = validarEdad(edad);
+    if (!edadValida) {
+        if (isNaN(edad)) {
+            alert("Por favor, ingresa un número válido 😡😡");
+        } else {
+            alert("Tenes que tener 18 o más para ingresar 😢😢😢");
+        }
+    }
+}
