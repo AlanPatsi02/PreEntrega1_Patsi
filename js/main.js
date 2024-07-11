@@ -23,3 +23,4 @@ while (!edadValida) {
         }
     }
 }
+alert("¡Bienvenido! Eres mayor de 18 😎, podes ingresar!🍾");
